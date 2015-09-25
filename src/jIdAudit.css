@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+.jIdAudit-background{
+	position:fixed;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:100;
+	opacity:0.5;
+	filter:Alpha(opacity=50);
+	background-color:#999;
+}
+
+.jIdAudit-content{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	left:0;
+	top:0;
+}
+
+.jIdAudit-main{
+	position:relative;
+	width:600px;
+	background-color:white;
+	margin:0 auto;
+	top:100px;
+	border-radius:6px;
+	font-family: Arial, "微软雅黑";
+	font-size: 12px;
+}
+
+.jIdAudit-header{
+	padding: 9px 15px;
+	border-bottom: 1px solid #eee;
+	height:20px;
+}
+
+.jIdAudit-header .closeBtn{
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+	text-shadow: 0 1px 0 #ffffff;
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+}
+
+.jIdAudit-header .title{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.jIdAudit-body{
+	overflow-y: auto;
+	max-height: 400px;
+	padding: 15px;
+}
+
+.jIdAudit-foot{
+	padding: 9px 15px;
+	border-top: 1px solid #ddd;
+	background-color: #f5f5f5;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	height: 30px;
+}
+
+.jIdAudit-foot .btn{
+	display: inline-block;
+	padding: 4px 12px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	float: right;
+	margin: 0 5px;
+}
+
+.jIdAudit-foot .cancel{
+	background-color: #ccc;
+	color: #333;
+}
+
+.jIdAudit-foot .ok{
+	background-color: #49afcd;
+	color: #fff;
+}
+
+.jIdAudit-body .noeditinfo{
+	background: #e1e1e1;
+}
+
+.jIdAudit-content .noeditinfo td {
+  background: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.jIdAudit-content .noeditinfo input {
+  height: 25px;
+}
